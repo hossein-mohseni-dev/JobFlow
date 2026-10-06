@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background:
+    radial-gradient(900px 420px at 100% -10%, rgba(15, 118, 110, 0.16), transparent 60%),
+    #f4f7f6;
+  color: #10211f;
+}
+
+.dark body {
+  background: #0c1615;
+  color: #e7efe9;
+}
+
+:focus-visible {
+  outline: 2px solid #0f766e;
+  outline-offset: 2px;
+}
